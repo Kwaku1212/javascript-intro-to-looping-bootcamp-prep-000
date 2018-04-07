@@ -8,3 +8,5 @@ function forLoop(trying){
       }   
   }
 }
+var trys = []
+forLoop(trys)
