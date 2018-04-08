@@ -22,5 +22,5 @@ whileLoop(10)
 function doWhileLoop(this){
   do {
     console.log("some")
-  }
+  } while ()
 }
