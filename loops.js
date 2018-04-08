@@ -8,8 +8,6 @@ function forLoop(trying){
       }   
   }
 }
-var trys = []
-forLoop(trys)
 
 function whileLoop(number) {
   while(number > 0) {
@@ -17,7 +15,6 @@ function whileLoop(number) {
   }
   console.log("done")
 }
-whileLoop(10)
 
 function doWhileLoop(array){
   do {
