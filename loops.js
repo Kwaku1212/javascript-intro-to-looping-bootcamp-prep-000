@@ -10,3 +10,10 @@ function forLoop(trying){
 }
 var trys = []
 forLoop(trys)
+
+function whileLoop(number) {
+  while(number > 0) {
+    console.log(--number)
+  }
+  console.log("Done")
+}
