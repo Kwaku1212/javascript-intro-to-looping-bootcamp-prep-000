@@ -17,3 +17,4 @@ function whileLoop(number) {
   }
   console.log("Done")
 }
+whileLoop(10)
