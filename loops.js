@@ -19,8 +19,8 @@ function whileLoop(number) {
 }
 whileLoop(10)
 
-function doWhileLoop(this){
+function doWhileLoop(something){
   do {
     console.log("some")
-  } while ()
+  } while (array.length > 0 && maybeTrue())
 }
