@@ -1,19 +1,19 @@
 function forLoop(trying){
   for (let i = 0; i < 25; i++) {
     if(i === 1) {
-      return("I am " + i + " strange loop.")
+      console.log("I am " + i + " strange loop.")
     }
     else {
-      return(`I am ${i} strange loops.`)
+      console.log(`I am ${i} strange loops.`)
       }   
   }
 }
 
 function whileLoop(number) {
   while(number > 0) {
-    return(--number)
+    console.log(--number)
   }
-  return("done")
+  console.log("done")
 }
 
 function maybeTrue() {
