@@ -18,3 +18,9 @@ function whileLoop(number) {
   console.log("Done")
 }
 whileLoop(10)
+
+function doWhileLoop(this){
+  do {
+    console.log("some")
+  }
+}
